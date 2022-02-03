@@ -6,12 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/fonts.css">
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link rel ="stylesheet" href="css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel ="stylesheet" href="css/all.min.css">
         <link rel="stylesheet" href="css/font-awsome.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+        <link rel="stylesheet" href="css/font-awesome.min.css"> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">  
         <script src="js/jquery-3.6.0.min.js"></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" media="screen" type="text/css" href="css/styles.css">
     </head>
 
     <!-- START:: Section 1 -->
@@ -26,8 +32,8 @@
                 <div class="col-sm-12 col-md-10 col-lg-10 col-xl-10">
                     <nav class="navbar navbar-expand-lg navbar-light top-menu">
 						  <a class="navbar-brand" href="#"></a>
-							  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-								<span class="navbar-toggler-icon"></span>
+							  <button class="navbar-toggler tr-btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<i class="fa fa-bars"></i>
 							  </button>
 
 								<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -73,10 +79,10 @@
                     <div class="header-2-navbar">
                         <nav class="navbar navbar-expand-lg top-menu2">
 							<a class="navbar-brand" href="#"></a>
-							  <button class="navbar-toggler top-menu2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-								<span class="navbar-toggler-icon"></span>
+							  <button class="navbar-toggler top-menu2" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<i class="fa fa-bars"></i>
 							  </button>
-								<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<div class="collapse navbar-collapse" id="navbarSupportedContent2">
 									<ul class="navbar-nav me-auto mb-2 mb-lg-0 top-menu2">
                                         <li class="nav-item">
                                             <a class="nav-link" aria-current="page" href="#">HOME</a>
@@ -137,10 +143,6 @@
 								</p>
 								<a class="btn btn-secondary">Get Started Now!</a>
 							</div>
-							<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 hosting-right">
-								<p>1920 X 580 </p>
-
-							</div>
 						</div>
 					</div>
 					<div class="carousel-item">
@@ -159,7 +161,8 @@
 								<a class="btn btn-secondary">Get Started Now!</a>
 							</div>
 							<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 hosting-right">
-								<p>1920 X 580 </p>
+                                <img src="">
+								<!-- <p>1920 X 580 </p> -->
 
 							</div>
 						</div>
@@ -180,8 +183,9 @@
 								<a class="btn btn-secondary">Get Started Now!</a>
 							</div>
 								<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 hosting-right">
-								<p>1920 X 580 </p>
-
+                                    <div></div>
+								<!-- <p>1920 X 580 </p>
+ -->
 							</div>
 						</div>
 					</div>
@@ -204,14 +208,14 @@
         <div class="container">
             <div class="row both clear">
                 <form>
-                    <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 search-label"
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 search-label"
                         <label for="search" class=" col-form-label search-label ">FIND YOUR PERFECT DOMAIN NAME: </label>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 search-input">
+                    <div class="col-sm-7 col-md-7 col-lg-7 col-xl-7 search-input">
                         <input type="Search" class="form-control "placeholder="Enter your domain name here.." id="search">
                     </div> 
-                    <div class="col-sm-4 col-md-2 col-lg-2 col-xl-2 search-button">
-                        <button type="button" class="btn search-button ">SEARCH DOMAIN</button>
+                    <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 search-button">
+                        <button type="button" class ="src-btn">SEARCH DOMAIN</button>
                     </div>
                 </form>
 			</div>
@@ -237,8 +241,8 @@
 							<li>
 								<span class="server-style">.org </span>$7.75
 							</li>
-							<li>
-								All prices per annum
+							<li style="color:#71797f";>
+								*All prices<br> per annum
 							</li>
 							
 							
@@ -363,75 +367,60 @@
                     </p>
                 </div>
                 <div class="row">
-					<div class="col-sm-2 col-md-1 col-lg-1 col-xl-1 circle">
-                       <img src="images/h.png" alt="hosting-icon">
+					<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                        <div class="circle" ><img src="images/h.png"alt="hosting-icon"> </div>
+                            
+                            <p class="service-passage-one">Unlimited Web Space</p>
+                           <p class="service-passage-two">Poerful and cheat web hosting and Domains for your website</p>
+                    
                     </div> 					
-					<div class="col-sm-10 col-md-3 col-lg-3 col-xl-3 service-items">
+                        
+					<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                       <div class="circle" ><img src="images/h.png"alt="hosting-icon"> </div>
                        <p class="service-passage-one">Unlimited Web Space</p>
                        <p class="service-passage-two">Poerful and cheat web hosting and Domains for your website</p>
-                    </div>
-					<div class="col-sm-2 col-md-1 col-lg-1 col-xl-1 circle">
-                       <img src="images/h.png"  alt="hosting-icon">
-                    </div>
-                    <div class="col-sm-10 col-md-3 col-lg-3 col-xl-3 service-items">
-                       <p class="service-passage-one">FREE Site Building Tool</p>
+                    </div>  
+					<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                       <div class="circle" ><img src="images/h.png"alt="hosting-icon"> </div>
+                       <p class="service-passage-one">Unlimited Web Space</p>
                        <p class="service-passage-two">Poerful and cheat web hosting and Domains for your website</p>
-                    </div>
-					<div class="col-sm-2 col-md-1 col-lg-1 col-xl-1 circle">
-                       <img src="images/h.png"  alt="hosting-icon">
-                    </div> 
-					<div class="col-sm-10 col-md-3 col-lg-3 col-xl-3 service-items">
-                       <p class="service-passage-one">FREE Domain Register</p>
-                       <p class="service-passage-two">Poerful and cheat web hosting and Domains for your website</p>
-                    </div>
+                    </div>  
 					
                 </div>
 				<div class="row">
-					<div class="col-sm-2 col-md-1 col-lg-1 col-xl-1 circle">
-                       <img src="images/h.png"  alt="hosting-icon">
-                    </div> 					
-					<div class="col-sm-10 col-md-3 col-lg-3 col-xl-3 service-items">
+					<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                       <div class="circle" ><img src="images/h.png"alt="hosting-icon"> </div>
                        <p class="service-passage-one">Unlimited Web Space</p>
                        <p class="service-passage-two">Poerful and cheat web hosting and Domains for your website</p>
-                    </div>
-					<div class="col-sm-2 col-md-1 col-lg-1 col-xl-1 circle">
-                       <img src="images/h.png"alt="hosting-icon">
-                    </div>
-                    <div class="col-sm-10 col-md-3 col-lg-3 col-xl-3 service-items">
-                       <p class="service-passage-one">FREE Site Building Tool</p>
+                    </div>  
+					<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                       <div class="circle" ><img src="images/h.png"alt="hosting-icon"> </div>
+                       <p class="service-passage-one">Unlimited Web Space</p>
                        <p class="service-passage-two">Poerful and cheat web hosting and Domains for your website</p>
-                    </div>
-					<div class="col-sm-2 col-md-1 col-lg-1 col-xl-1 circle">
-                       <img src="images/h.png"alt="hosting-icon">
-                    </div> 
-					<div class="col-sm-10 col-md-3 col-lg-3 col-xl-3 service-items">
-                       <p class="service-passage-one">FREE Domain Register</p>
+                    </div>  
+					<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                       <div class="circle" ><img src="images/h.png"alt="hosting-icon"> </div>
+                       <p class="service-passage-one">Unlimited Web Space</p>
                        <p class="service-passage-two">Poerful and cheat web hosting and Domains for your website</p>
-                    </div>
+                    </div>  
 					
                 </div>
                 <div class="row">
-					<div class="col-sm-2 col-md-1 col-lg-1 col-xl-1 circle">
-                       <img src="images/h.png" alt="hosting-icon">
-                    </div> 					
-					<div class="col-sm-10 col-md-3 col-lg-3 col-xl-3 service-items">
+					<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                       <div class="circle" ><img src="images/h.png"alt="hosting-icon"> </div>
                        <p class="service-passage-one">Unlimited Web Space</p>
                        <p class="service-passage-two">Poerful and cheat web hosting and Domains for your website</p>
-                    </div>
-					<div class="col-sm-2 col-md-1 col-lg-1 col-xl-1 circle ">
-                       <img src="images/h.png" alt="hosting-icon">
-                    </div>
-                    <div class="col-sm-10 col-md-3 col-lg-3 col-xl-3 service-items">
-                       <p class="service-passage-one">FREE Site Building Tool</p>
+                    </div>  
+					<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                       <div class="circle" ><img src="images/h.png"alt="hosting-icon"> </div>
+                       <p class="service-passage-one">Unlimited Web Space</p>
                        <p class="service-passage-two">Poerful and cheat web hosting and Domains for your website</p>
-                    </div>
-					<div class="col-sm-2 col-md-1 col-lg-1 col-xl-1 circle">
-                       <img src="images/h.png" alt="hosting-icon">
-                    </div> 
-					<div class="col-sm-10 col-md-3 col-lg-3 col-xl-3 service-items">
-                       <p class="service-passage-one">FREE Domain Register</p>
+                    </div>  
+					<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                       <div class="circle" ><img src="images/h.png"alt="hosting-icon"> </div>
+                       <p class="service-passage-one">Unlimited Web Space</p>
                        <p class="service-passage-two">Poerful and cheat web hosting and Domains for your website</p>
-                    </div>
+                    </div>  
 					
                 </div>
              </div>
@@ -459,11 +448,11 @@
 					<p class="online2-header">WEB SITE BUILDER</p>
 					
 					<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 pass">
-					<p class="pass">own printer took a galley of type and scrambled ittook a galley of type and scrambled it</p>
-					<p class="pass">own printer took a galley of scrambled it type and scrambled it</p>
-					<p class="pass">own printer took a galley of type and scrambled it</p>
-					<div class="pass"><a class="btn online2-button">READ MORE </a></div>
-				 </div>
+    					<p class="pass"><i class="fa fa-long-arrow-right"></i>&nbsp;own printer took a galley of type and scrambled ittook a galley of type and scrambled it</p>
+    					<p class="pass"><i class="fa fa-long-arrow-right"></i>&nbsp;own printer took a galley of scrambled it type and scrambled it</p>
+    					<p class="pass"><i class="fa fa-long-arrow-right"></i>&nbsp;own printer took a galley of type and scrambled it</p>
+    					<div class="pass"><a class="btn online2-button">READ MORE </a></div>
+				    </div>
 					
                 </div>
 				
@@ -474,9 +463,10 @@
 						<p class="online2-header">WEB SITE BUILDER</p>
 					
 						<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 pass">
-							<p class="pass">own printer took a galley of type and scrambled ittook a galley of type and scrambled it</p>
-							<p class="pass">own printer took a galley of scrambled it type and scrambled it</p>
-							<p class="pass">own printer took a galley of type and scrambled it</p>
+							<p class="pass"><i class="fa fa-long-arrow-right"></i>&nbsp;own printer took a galley of type and scrambled ittook a galley of type</p>
+							<p class="pass"><i class="fa fa-long-arrow-right"></i>&nbsp;own printer took a galley of scrambled it type and scrambled it</p>
+							<p class="pass"><i class="fa fa-long-arrow-right"></i>&nbsp;own printer took a galley of type and scrambled it
+                            </p>
 							<div class="pass"><a class="btn online2-button">READ MORE </a></div>
 							
 						</div>
@@ -492,18 +482,18 @@
    
     <!-- END:: Section 7 -->
     <!-- START:: Section 8 -->
-	<div class="vedio">
+ 	<!-- <div class="vedio">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <p class="vedio-passage-one">FIRST TIME BUILDING ?</p>
+                    <p class="vedio-passage-two">WEBSITE ,DOMAIN OR HOSTING WE CAN HELP</p>
                     
                 </div>
-				<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
-                    
-                </div>
-            </div>
-		</div>
-	</div>	
+                <!-- <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                    <img src="images/v-img.png">
+                </div> -->
+			
 
 
 
@@ -522,21 +512,27 @@
 						<div class="row">
 							<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
 								<div class="blog-header">
-									<h5>LATEST NEWS/ BLOG</h5>
+									<h5 style="padding-bottom: 10px;">LATEST NEWS/ BLOG</h5>
 								</div>
 								<div class="blog-value">
 									320 X 200
 								</div>
 								
-								<div class="col-sm-12 col-md-12 col-lg-`12 col-xl-12 blog-passage-left">
-									 <p>
-										Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-									 </p>
+								<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 blog-passage-left">
+								<div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 blog-passage-date">
+										<p class="passage-style-num">12</p>
+										<p class ="passage-style-month"> JAN</p>
+									</div>
+									<div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 ">
+										<p>
+											Lorem Ipsum has been the industry's  printer took a galley of type and scrambled it to make a type specimen book.
+										</p>
+									</div>
 								</div>
 							</div>
 							<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
 								<div class="blog-header">
-									<h5>HAVE QUESTIONS</h5>
+									<h5 style="padding-bottom: 10px;">HAVE QUESTIONS</h5>
 								</div>
 								
 								<div class="col-sm-12 col-md-12 col-lg-`12 col-xl-12 blog-passage-right">
@@ -608,21 +604,27 @@
 						<div class="row">
 							<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
 								<div class="blog-header">
-									<h5>LATEST NEWS/ BLOG</h5>
+									<h5 style="padding-bottom: 10px;">LATEST NEWS/ BLOG</h5>
 								</div>
 								<div class="blog-value">
 									320 X 200
 								</div>
 								
-								<div class="col-sm-12 col-md-12 col-lg-`12 col-xl-12 blog-passage-left">
-									 <p>
-										Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-									 </p>
+								<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 blog-passage-left">
+									<div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 blog-passage-date">
+										<p  class="passage-style-num">12</p>
+										<p class ="passage-style-month"> JAN</p>
+									</div>
+									<div class="col-sm-10 col-md-10 col-lg-10 col-xl-10"  >
+										<p>
+											Lorem Ipsum has been the industry's  printer took a galley of type and scrambled it to make a type specimen book.
+										</p>
+									</div>
 								</div>
 							</div>
 							<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
 								<div class="blog-header">
-									<h5>HAVE QUESTIONS</h5>
+									<h5 style="padding-bottom: 10px;">HAVE QUESTIONS</h5>
 								</div>
 								
 								<div class="col-sm-12 col-md-12 col-lg-`12 col-xl-12 blog-passage-right">
@@ -694,21 +696,27 @@
 						<div class="row">
 							<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
 								<div class="blog-header">
-									<h5>LATEST NEWS/ BLOG</h5>
+									<h5 style="padding-bottom: 10px;">LATEST NEWS/ BLOG</h5>
 								</div>
 								<div class="blog-value">
 									320 X 200
 								</div>
 								
-								<div class="col-sm-12 col-md-12 col-lg-`12 col-xl-12 blog-passage-left">
-									 <p>
-										Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-									 </p>
+								<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 blog-passage-left">
+								<div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 blog-passage-date">
+										<p  class="passage-style-num">12</p>
+										<p class ="passage-style-month"> JAN</p>
+									</div>
+									<div class="col-sm-10 col-md-10 col-lg-10 col-xl-10 ">
+										<p>
+											Lorem Ipsum has been the industry's  printer took a galley of type and scrambled it to make a type specimen book.
+										</p>
+									</div>
 								</div>
 							</div>
 							<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
 								<div class="blog-header">
-									<h5>HAVE QUESTIONS</h5>
+									<h5 style="padding-bottom: 10px;">HAVE QUESTIONS</h5>
 								</div>
 								
 								<div class="col-sm-12 col-md-12 col-lg-`12 col-xl-12 blog-passage-right">
@@ -805,6 +813,8 @@
                         <li><button type="button" class="btn btn-outline-secondary">DOMAIN</button></li>
                         <li><button type="button" class="btn btn-outline-secondary">ECOMMERCE</button></li>
                         <li><button type="button" class="btn btn-outline-secondary">MOBILE</button></li>
+						<li><button type="button" class="btn btn-outline-secondary">SERVICE</button></li>
+                        
                     </ul>
                 </div>
             </div>
@@ -830,24 +840,24 @@
             <div class="row">
                 <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 soffer-item1">
                     <p>Secure fast reliable</p>
-                    <h2>SHARED HOSTING</h2>
+                    <h2 class="soffer">SHARED HOSTING</h2>
                     <img src="images/icon1.png">
                     <p>All hosting treates used template</p>
-                    <a class="btn soffer-button">LEARN MORE</a>
+                    <a class="btn soffer-button" style="background-color: #ffffff;color:#2a363f;">LEARN MORE</a>
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 soffer-item2">
                     <p>Secure fast reliable</p>
-                    <h2>SHARED HOSTING</h2>
+                    <h2 class="soffer">SHARED HOSTING</h2>
                     <img src="images/icon2.png">
                     <p>All hosting treates used template</p>
-                    <a class="btn soffer-button">LEARN MORE</a>
+                    <a class="btn soffer-button" style="background-color: #ffffff;color:#86c724;">LEARN MORE</a>
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 soffer-item3">
                     <p>Secure fast reliable</p>
-                    <h2>SHARED HOSTING</h2>
+                    <h2 class="soffer">CLOUD COMPUTING</h2>
                     <img src="images/pcicon.png">
                     <p>All hosting treates used template</p>
-                    <a class="btn soffer-button soffer3rd_button">LEARN MORE</a>
+                    <a class="btn soffer-button soffer3rd_button " style="background-color: #2a363f;color:#ffffff;">LEARN MORE</a>
                 </div>
             </div>
         </div>
@@ -887,7 +897,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-2 col-lg-2 col-xl-12 value ">
-                    <h2>1920*900</h2>
+                     <h2 style="font-size: 31px;">1920 x 900</h2>
                 </div>
             </div>
         </div>
@@ -895,42 +905,52 @@
     
     <!-- END:: Section 12 -->
     <!-- START:: Section 13 -->
+
     <div class="check-out">
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 check-out-header">
                 <p>BUILD YOUR OWN NEW WEBSITE IN A MUNITE </p>
-                <h2>CHECK OUT PORTFOLIO WEBSITES</h2> 
+                <h2 style="padding-top:10px;color:2a363f">CHECK OUT PORTFOLIO WEBSITES</h2> 
             </div>
 			<div class="check-out-image">
                 <div class="row">
-					<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12"
-						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-							<ol class="carousel-indicators">
-							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-							<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-							<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-							</ol>
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img class="" src="images/image2.jpg" alt="First slide">
-						</div>
-						<div class="carousel-item">
-							<img class="" src="images/image2.jpg" alt="Second slide">
-						</div>
-						<div class="carousel-item">
-							<img class="" src="images/image2.jpg" alt="Third slide">
-						</div>
-					</div>
-					  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					  </a>
-					  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					  </a>
-					</div>
-				</div>
+                    <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel"  data-interval="1000">
+                        <div class="MultiCarousel-inner">
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/human_image.jpg">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/image2.jpg">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/image3.jpg">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/image1.jpg">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/image2.jpg">
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15">
+                                    <img src="images/image3.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary leftLst"><</button>
+                        <button class="btn btn-primary rightLst">></button>
+                    </div>
+                </div>
 			</div>
              
         </div>
@@ -963,8 +983,7 @@
              </div>
         </div>
     </div>
-    
-    
+
     <!-- START:: Section 13 -->
 	<div class="customer">
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -979,8 +998,8 @@
 							<div class="row">
 								<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
 									<div>
-										<h1> WHY CUSTOMER <i class="fa fa-heart"></i> US!</h1>
-										<img src="images/90.png">
+										<h1> WHY CUSTOMER <i class="fa fa-heart" style="color:#86c724"></i> US!</h1>
+										<div class ="dot col-sm-6 col-md-6 col-lg-6 col-xl-6 dot-text" >90 X 90</div>
 										<p>
 											Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites 
 										</p>
@@ -993,8 +1012,8 @@
 						<div class="row">
 							<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
 								<div>
-									<h1> WHY CUSTOMER <i class="fa fa-heart"></i> US!</h1>
-									<img src="images/90.png">
+									<h1> WHY CUSTOMER <i class="fa fa-heart" style="color:#86c724"></i> US!</h1>
+									<div class ="dot col-sm-6 col-md-6 col-lg-6 col-xl-6 dot-text" >90 X 90</div>
 									<p>
 										Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites 
 									</p>
@@ -1008,8 +1027,8 @@
 					<div class="row">
 						<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
 							<div>
-								<h1> WHY CUSTOMER <i class="fa fa-heart"></i> US!</h1>
-								<img src="images/90.png">
+								<h1> WHY CUSTOMER <i class="fa fa-heart" style="color:#86c724"></i> US!</h1>
+								<div class ="dot col-sm-6 col-md-6 col-lg-6 col-xl-6 dot-text" >90 X 90</div>
 								<p>
 									Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites 
 								</p>
@@ -1055,16 +1074,15 @@
 	<div class="footer1">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 footer1-text">
-					<p><span>Need HELP?</span> Call us</p>	
-                    <p>123-2334-345</p> 
-				</div> 
-				<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4 search-input">
+				<div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 footer-left-image">
+                    <h6><span style="color:#2a363f;font-weight:bold;">Need Help?</span>Call us 24/7</h6>
+                    <h2 style="font-size:34px">123-456-789</h2>
+                </div> 
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 search-input">
+                    <p style="color:#ffffff; padding-bottom:10px;">Sign Up to News letter for get Special offer</p>
                         <input type="Search" class="form-control "placeholder="Enter your domain name here.." id="search">
-				</div> 
-				<div class="col-sm-4 col-md-2 col-lg-2 col-xl-2 ">
-					<a href="#"class=" btn sign-up ">SIGN UP</a>
-				</div>
+                        <a href="#"class=" btn sign-up ">SIGN UP</a>
+                </div>
 			</div>
 			<div class="row">
 				<div class="col-sm-3 col-lg-3 col-md-3 col-xl-3">
@@ -1098,7 +1116,7 @@
 					<p>Latin professor </p>
 				</div>
 				
-				<div class="col-sm-3 col-lg-3 col-md-3 col-xl-3">
+				<div class="col-sm-3 col-lg-3 col-md-3 col-xl-3 footer-right-list">
 					<img src="images/logo.png" alt ="logo">
 					<address>
 						Cecilia Chapman
@@ -1109,17 +1127,25 @@
 					
 					<p>Phone: 01912366545</p>
 					<p>Email:aksjsdh@gmail.com</p>
+                    <ul>
+                        <li ><div class="btn-secondary"></div></li>
+                        <li ><div class="btn-secondary"></div></li>
+                        <li ><div class="btn-secondary"></div></li>
+                        <li ><div class="btn-secondary"></div></li>
+                    </ul>
+                    <div class="black-box">170x50</div>
+                    <div class="black-box">170x50</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-3 col-lg-3 col-md-3 col-xl-3 follow-us">
 					<h3>Follow Us</h3>
 					<ul>
-						<li> <img src ="images/f.png"</li>
-						<li> <img src ="images/t.png"</li>
-						<li> <img src ="images/g.png"</li>
-						<li> <img src ="images/u.png"</li>
-						<li> <img src ="images/in.png"</li>
+						<li class="blue"> <i class="fa fa-facebook-f"></i></li>
+						<li class="insta"> <i class="fa fa-instagram"></i></li>
+						<li class="twiter"> <i class="fa fa-twitter"></i></li>
+						<li class="utube"> <i class="fa fa-youtube"></i></li>
+						<li class="blue"> <i class="fa fa-facebook-f"></i></li>
 					</ul>
 					
 				</div>
@@ -1154,10 +1180,10 @@
 	<div class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-6 col-lg-6 col-md-6 col-xl-6">
+				<div class="col-sm-12 col-lg-6 col-md-6 col-xl-6">
 					Copyright@copy 2015 ARKAHOST.ALL RIGHTS RESERVED
 				</div>
-				<div class="col-sm-6 col-lg-6 col-md-6 col-xl-6 footer-right">
+				<div class="col-sm-12 col-lg-6 col-md-6 col-xl-6 footer-right">
 					<p>Tearms of service|Privacy Policy|Site Map</p>
 				</div>
 			</div>
@@ -1170,8 +1196,113 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script>
 		$(document).ready(function(){
-		  $('.carousel').carousel();
+            $('.carousel').carousel();
+            var itemsMainDiv = ('.MultiCarousel');
+            var itemsDiv = ('.MultiCarousel-inner');
+            var itemWidth = "";
+
+            $('.leftLst, .rightLst').click(function () {
+                var condition = $(this).hasClass("leftLst");
+                if (condition)
+                    click(0, this);
+                else
+                    click(1, this)
+            });
+
+            ResCarouselSize();
+
+
+
+
+            $(window).resize(function () {
+                ResCarouselSize();
+            });
+
+            //this function define the size of the items
+            function ResCarouselSize() {
+                var incno = 0;
+                var dataItems = ("data-items");
+                var itemClass = ('.item');
+                var id = 0;
+                var btnParentSb = '';
+                var itemsSplit = '';
+                var sampwidth = $(itemsMainDiv).width();
+                var bodyWidth = $('body').width();
+                $(itemsDiv).each(function () {
+                    id = id + 1;
+                    var itemNumbers = $(this).find(itemClass).length;
+                    btnParentSb = $(this).parent().attr(dataItems);
+                    itemsSplit = btnParentSb.split(',');
+                    $(this).parent().attr("id", "MultiCarousel" + id);
+
+
+/*                    if (bodyWidth >= 1200) {
+                        incno = itemsSplit[3];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else if (bodyWidth >= 992) {
+                        incno = itemsSplit[2];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else if (bodyWidth >= 768) {
+                        incno = itemsSplit[1];
+                        itemWidth = sampwidth / incno;
+                    }
+                    else {
+                        incno = itemsSplit[0];
+                        itemWidth = sampwidth / incno;
+                    }*/
+                    itemWidth = sampwidth/3;
+                    $(this).css({ 'transform': 'translateX(0px)', 'width': itemWidth * itemNumbers });
+                    $(this).find(itemClass).each(function () {
+                        $(this).outerWidth(itemWidth);
+                    });
+
+                    $(".leftLst").addClass("over");
+                    $(".rightLst").removeClass("over");
+
+                });
+            }
+
+
+            //this function used to move the items
+            function ResCarousel(e, el, s) {
+                var leftBtn = ('.leftLst');
+                var rightBtn = ('.rightLst');
+                var translateXval = '';
+                var divStyle = $(el + ' ' + itemsDiv).css('transform');
+                var values = divStyle.match(/-?[\d\.]+/g);
+                var xds = Math.abs(values[4]);
+                if (e == 0) {
+                    translateXval = parseInt(xds) - parseInt(itemWidth * s);
+                    $(el + ' ' + rightBtn).removeClass("over");
+
+                    if (translateXval <= itemWidth / 2) {
+                        translateXval = 0;
+                        $(el + ' ' + leftBtn).addClass("over");
+                    }
+                }
+                else if (e == 1) {
+                    var itemsCondition = $(el).find(itemsDiv).width() - $(el).width();
+                    translateXval = parseInt(xds) + parseInt(itemWidth * s);
+                    $(el + ' ' + leftBtn).removeClass("over");
+
+                    if (translateXval >= itemsCondition - itemWidth / 2) {
+                        translateXval = itemsCondition;
+                        $(el + ' ' + rightBtn).addClass("over");
+                    }
+                }
+                $(el + ' ' + itemsDiv).css('transform', 'translateX(' + -translateXval + 'px)');
+            }
+
+            //It is used to get some elements from btn
+            function click(ell, ee) {
+                var Parent = "#" + $(ee).parent().attr("id");
+                var slide = $(Parent).attr("data-slide");
+                ResCarousel(ell, Parent, slide);
+            }
 		});
+
 	</script> 
        
         

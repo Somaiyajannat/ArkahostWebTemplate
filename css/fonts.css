@@ -3,7 +3,7 @@
     src: url('../fonts/Roboto/Roboto-Medium.ttf');
 }
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Roboto-Black';
     src: url('../fonts/Roboto/Roboto-Black.ttf');
 }
 @font-face {
@@ -31,4 +31,3 @@
     font-family: 'Open_Sans';
     src: url('../fonts/Open_Sans/OpenSans-Light.ttf');
 }
-
